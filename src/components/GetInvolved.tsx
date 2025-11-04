@@ -8,22 +8,25 @@ const GetInvolved = () => {
   };
 
   const handleVolunteer = () => {
-    toast.success("Thank you for your interest in volunteering! We'll be in touch soon.");
+    toast.success(
+      "Thank you for your interest in volunteering! We'll be in touch soon."
+    );
   };
 
   const handlePartner = () => {
-    toast.success("Thank you for your interest in partnering! We'll contact you shortly.");
+    toast.success(
+      "Thank you for your interest in partnering! We'll contact you shortly."
+    );
   };
 
   return (
     <section id="get-involved" className="py-24 gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Get Involved
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Get Involved</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Your support makes a real difference. Join us in creating lasting change.
+            Your support makes a real difference. Join us in creating lasting
+            change.
           </p>
         </div>
 
@@ -35,9 +38,10 @@ const GetInvolved = () => {
             </div>
             <h3 className="text-2xl font-semibold mb-4">Donate</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Your financial support helps us provide essential services and create sustainable change in communities.
+              Your financial support helps us provide essential services and
+              create sustainable change in communities.
             </p>
-            <Button 
+            <Button
               className="gradient-primary hover:shadow-hover transition-smooth rounded-full w-full"
               size="lg"
               onClick={handleDonate}
@@ -53,11 +57,12 @@ const GetInvolved = () => {
             </div>
             <h3 className="text-2xl font-semibold mb-4">Volunteer</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Share your time, skills, and passion to make a direct impact in the lives of those we serve.
+              Share your time, skills, and passion to make a direct impact in
+              the lives of those we serve.
             </p>
-            <Button 
+            <Button
               variant="outline"
-              className="rounded-full w-full border-2 hover:bg-primary/5 transition-smooth"
+              className="rounded-full w-full border-2 hover:bg-primary/5 transition-smooth hover:text-blue-800"
               size="lg"
               onClick={handleVolunteer}
             >
@@ -72,11 +77,12 @@ const GetInvolved = () => {
             </div>
             <h3 className="text-2xl font-semibold mb-4">Partner With Us</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Collaborate with TrustAid to amplify our impact and create systemic change together.
+              Collaborate with TrustAid to amplify our impact and create
+              systemic change together.
             </p>
-            <Button 
+            <Button
               variant="outline"
-              className="rounded-full w-full border-2 hover:bg-primary/5 transition-smooth"
+              className="rounded-full w-full border-2 hover:bg-primary/5 transition-smooth hover:text-blue-800"
               size="lg"
               onClick={handlePartner}
             >

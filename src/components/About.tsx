@@ -7,9 +7,13 @@ const About = () => {
         <div className="max-w-4xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Story</h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            TrustAid was born from a simple yet powerful belief: that every
-            person deserves the opportunity to heal, grow, and build a life of
-            dignity and purpose.
+            Our journey began in 2021 in response to the growing needs of
+            vulnerable populations in Nigeria, who face numerous challenges;
+            from conflicts and insecurity, displacement and migration, poor
+            healthcare services, natural disasters/impact of climate change,
+            social and economic inequality to cultural and religious tensions.
+            It was founded on the principle that every individual deserves hope,
+            dignity, and the opportunity to thrive.
           </p>
         </div>
 
@@ -61,15 +65,7 @@ const About = () => {
             mental health in Nigeria, fostering hope during and aftermath of
             conflict, crises, disaster and other challenging situations.
           </p>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Our journey began in 2021 in response to the growing needs of
-            vulnerable populations in Nigeria, who face numerous challenges;
-            from conflicts and insecurity, displacement and migration, poor
-            healthcare services, natural disasters/impact of climate change,
-            social and economic inequality to cultural and religious tensions.
-            It was founded on the principle that every individual deserves hope,
-            dignity, and the opportunity to thrive.
-          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed"></p>
         </div>
       </div>
     </section>
