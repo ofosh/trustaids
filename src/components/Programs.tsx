@@ -72,8 +72,11 @@ const programs = [
       "Climate change is one of the most pressing issues of our time, with far-reaching consequences for the environment, human health, and the economy. Rising temperatures, changing precipitation patterns, and increased frequency of extreme weather events are altering ecosystems, displacing communities, and threatening livelihoods.The Impacts of climate change are felt across the globe, and are not limited to the environment; they also have significant social and economic implications. Climate change can exacerbate existing social and economic inequalities, particularly for vulnerable populations such as women, children, and indigenous communities. It can also lead to food and water scarcity, loss of biodiversity, and increased risk of natural disasters. ",
     subDesc: [
       {
+        sample: "Trust Aid’s Response",
+      },
+      {
         titleDesc:
-          "Trust Aid’s Response Trust Aid’s climate action initiatives are committed to promoting the reduction of greenhouse gas emissions, and enhancing the resilience of communities to climate-related shocks and supporting communities in adapting to its impacts through;",
+          "Trust Aid’s climate action initiatives are committed to promoting the reduction of greenhouse gas emissions, and enhancing the resilience of communities to climate-related shocks and supporting communities in adapting to its impacts through;",
       },
       {
         point:
@@ -119,20 +122,7 @@ const programs = [
       },
 
       {
-        subss:
-          "Trust Aid's livelihood empowerment initiatives are designed to address the complex relationships between livelihoods, peace, trauma, and climate change. Some of the initiatives include:",
-      },
-      {
-        pon: "1. Vocational training in areas such as agriculture, craftsmanship, and entrepreneurship to equip individuals with practical skills that can be applied to generate income and improve their livelihoods.",
-      },
-      {
-        pon: "2. Training on business skills, financial literacy, and entrepreneurship. This training enables individuals to develop sustainable businesses and improve their economic well-being.",
-      },
-      {
-        pon: "3. Training on livestock management and animal husbandry to helps communities develop sustainable livestock practices, improve their livelihoods, and enhance their resilience to climate change.",
-      },
-      {
-        pon: "4. Supporting development of value chains for local products to enhance market access and income generation, helping communities connect to markets, improve their livelihoods, and reduce poverty.",
+        pon: "To equip individuals with practical skills that can be applied to generate income and improve their livelihoods, Trust Aid organizes training in agriculture, craftsmanship, entrepreneurship, financial literacy, supporting development of value chains for local products to enhance market access and income generation, helping communities connect to markets, improve their livelihoods, and reduce poverty, and enhancing their resilience to climate change",
       },
       {
         pon: "Trust Aid's peace building and livelihood empowerment initiatives address climate change, trauma and mental health by integrating sustainable practices, community engagement, and economic stability, promoting peace, resilience, and sustainability in communities affected by conflict, trauma, and climate change.",
@@ -187,19 +177,20 @@ const Programs = () => {
                 <ul>
                   {program.subDesc.map((sub, index) => (
                     <div>
-                      <li
-                        className="text-muted-foreground leading-relaxed py-2"
+                      <p
+                        className="text-muted-foreground leading-relaxed "
                         key={index}
                       >
+                        {sub.sample}
+                      </p>
+                      <li className="text-muted-foreground leading-relaxed py-1 italic">
                         {sub.titleDesc}
                       </li>
 
                       <p className="text-muted-foreground leading-relaxed">
                         {sub.point}
                       </p>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {sub.subss}
-                      </p>
+
                       <p className="text-muted-foreground leading-relaxed">
                         {sub.pon}
                       </p>
