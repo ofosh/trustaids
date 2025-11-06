@@ -1,4 +1,4 @@
-import { Heart, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Heart, Facebook, Twitter, Instagram, Linkedin, X } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -76,7 +76,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1Pv2nnx2S4/?mibextid=qi2Omg"
                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                 aria-label="Facebook"
               >
